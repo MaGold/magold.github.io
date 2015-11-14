@@ -20,4 +20,4 @@ github_username:  MaGold
 # Build settings
 markdown: kramdown
 
-gems: [bourbon, neat]
+#gems: [bourbon, neat]
