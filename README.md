@@ -1,1 +1,1 @@
-# Linear-Regression-and-K-means
+# Blog
