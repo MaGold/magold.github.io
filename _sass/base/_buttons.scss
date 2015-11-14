@@ -1,0 +1,53 @@
+#{$all-button-inputs},
+button {
+  @include appearance(none);
+  -webkit-font-smoothing: antialiased;
+  // background-color: $action-color;
+  @include background(linear-gradient(lighten($action-color, 2%), darken($action-color, 2%)) top);
+  box-shadow: 0px 2px 10px #888888;
+  border-radius: $base-border-radius;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  font-weight: 600;
+  line-height: 1;
+  padding: 0.75em 1em;
+  text-decoration: none;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+
+  border-color:$action-color;
+  border-width:2px;
+  border-style:outset;
+
+
+  &:hover{
+    @include background(linear-gradient(lighten($action-color, 4%), darken($action-color, 14%)) bottom);
+    // color:
+    // background-color: darken($action-color, 15%);
+    color: #EFEFEF;
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+
+  &:active {
+  // box-shadow: outset 0 0 0 5px #236072,inset 0 5px 30px #269499;
+  // background-color: darken($action-color, 15%);
+  @include background(linear-gradient(lighten($action-color, 4%), darken($action-color, 8%)) top);
+  // background-color:lighten($action-color, 5%);
+  box-shadow: 0px 0px 0px #888888;
+  // border-top:1px solid $action-color;
+  // border-left:1px solid $action-color;
+  border-color:$action-color;
+  border-width:2px;
+  border-style:inset;
+
+}
+}

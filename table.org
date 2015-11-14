@@ -1,0 +1,16 @@
+Architechtures
+
+NN1:
+
+input -> 100 filters (17x17) -> pool -> upsample -> deconvolution -> output | 
+
+NN2:
+
+input -> 100 filters (17x17) -> pool -> 36 filters (3x3) -> pool -> upsample -> deconvolution -> upsample -> deconvolution -> output |
+
+|               |                                                                         NN1 | NN2                                                                                                                                  |
+| Epochs        |                                                                         400 | 400                                                                                                                                  |
+| Training time |                                                                   3.5 hours |                                                                                                                                      |
+| batch size    |                                                                          50 |                                                                                                                                      |
+| learning rate |                                                                       0.005 |                                                                                                                                      |
+| momentum      |                                                                         0.9 |                                                                                                                                      |
