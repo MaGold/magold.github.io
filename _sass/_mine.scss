@@ -18,8 +18,8 @@ section{
     @include outer-container;
 
 
-    div.left, div.right{
-        @include span-columns(6);
+    div.left, div.middle, div.right{
+        @include span-columns(3);
 
     }
 }
