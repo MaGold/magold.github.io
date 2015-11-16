@@ -2,7 +2,7 @@
 layout: post
 title:  "Convolutional Autoencoder (MNIST)"
 date:   2015-11-13 11:33:55 -0500
-categories: mnist
+categories: mnist convolutional-autoencoder
 ---
 
 # Comparing 4 convolutional autoencoder architectures:
