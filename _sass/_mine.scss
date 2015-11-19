@@ -23,6 +23,57 @@ section{
 
     }
 }
+
+.filtersection{
+  @include outer-container;
+
+
+    div.blank, div.left, div.right{
+        @include span-columns(3);
+
+    }
+
+    img.l1{
+      width: 100%;
+    }
+
+    img.l2{
+      width:70%;
+    }
+
+}
+
+.activationsection{
+  @include outer-container;
+
+
+    div.l1, div.l5{
+        @include span-columns(1);
+
+    }
+    div.l2, div.l4{
+        @include span-columns(3);
+
+    }
+    div.l3{
+        @include span-columns(2);
+
+    }
+
+    img.l1, img.l5{
+      width: 80%;
+    }
+
+    img.l2, img.l4{
+      width: 100%;
+    }
+
+    img.l3{
+      width: 80%;
+    }
+
+}
+
 figcaption{
     margin-bottom: 10px;
 }
