@@ -21,6 +21,7 @@ Approximately 10,000 images of only 1s and 8s were used to train the network for
 - batch size: 64
 - learning rate: 0.005
 - momentum: 0.9
+- loss function: mean squared error
 
 # Feature map sizes:
 
