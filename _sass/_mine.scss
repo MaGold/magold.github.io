@@ -13,6 +13,14 @@ img.filters{
 width: 90%;
 }
 
+img.bigfilters{
+  width: 90%;
+}
+
+img.smallreconstructions{
+  width: 30%;
+}
+
 section{
 
     @include outer-container;
@@ -43,6 +51,17 @@ section{
 
 }
 
+.turnoffgrid{
+  @include outer-container;
+  div{
+    @include span-columns(3);
+    img{
+      width: 139px;
+      height:350px;
+      border:1px solid #021a40;
+    }
+  }
+}
 .activationsection{
   @include outer-container;
 
