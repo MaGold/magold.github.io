@@ -56,8 +56,9 @@ section{
   div{
     @include span-columns(3);
     img{
-      width: 139px;
-      height:350px;
+      //width: 139px;
+      //height:350px;
+      width: 80%;
       border:1px solid #021a40;
     }
   }

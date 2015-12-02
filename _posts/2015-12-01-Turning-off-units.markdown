@@ -15,7 +15,7 @@ Non-linearities are `relu`. Weights are not tied.
 
 # Training
 
-- batch size: 256
+- batch size: 128
 - learning rate: 0.001 using RMSProp
 - loss function: mean squared error
 - trained for 100 epochs
@@ -38,34 +38,34 @@ Non-linearities are `relu`. Weights are not tied.
 
 
 
-# Reconstructions when all but one middle units are set to 0
+# Reconstructions when 9/10 middle units set to 0
 
 <section class="turnoffgrid">
     <div>
         <figure>
-            <a href="/assets/turnoff/0_blackout.png">
-                <img class="l1" src='/assets/turnoff/0_blackout.png' alt='missing' />
+            <a href="/assets/turnoff/0_onekept.png">
+                <img class="l1" src='/assets/turnoff/0_onekept.png' alt='missing' />
             </a>
         </figure>
     </div>
     <div>
         <figure>
-            <a href="/assets/turnoff/1_blackout.png">
-                <img class="l2" src='/assets/turnoff/1_blackout.png' alt='missing' />
+            <a href="/assets/turnoff/1_onekept.png">
+                <img class="l2" src='/assets/turnoff/1_onekept.png' alt='missing' />
             </a>
         </figure>
     </div>
     <div>
         <figure>
-            <a href="/assets/turnoff/2_blackout.png">
-                <img class="l3" src='/assets/turnoff/2_blackout.png' alt='missing' />
+            <a href="/assets/turnoff/2_onekept.png">
+                <img class="l3" src='/assets/turnoff/2_onekept.png' alt='missing' />
             </a>
         </figure>
     </div>
     <div>
         <figure>
-            <a href="/assets/turnoff/3_blackout.png">
-                <img class="l1" src='/assets/turnoff/3_blackout.png' alt='missing' />
+            <a href="/assets/turnoff/3_onekept.png">
+                <img class="l1" src='/assets/turnoff/3_onekept.png' alt='missing' />
             </a>
         </figure>
     </div>
@@ -74,29 +74,29 @@ Non-linearities are `relu`. Weights are not tied.
 <section class="turnoffgrid">
     <div>
         <figure>
-            <a href="/assets/turnoff/4_blackout.png">
-                <img class="l2" src='/assets/turnoff/4_blackout.png' alt='missing' />
+            <a href="/assets/turnoff/4_onekept.png">
+                <img class="l2" src='/assets/turnoff/4_onekept.png' alt='missing' />
             </a>
         </figure>
     </div>
     <div>
         <figure>
-            <a href="/assets/turnoff/5_blackout.png">
-                <img class="l3" src='/assets/turnoff/5_blackout.png' alt='missing' />
+            <a href="/assets/turnoff/5_onekept.png">
+                <img class="l3" src='/assets/turnoff/5_onekept.png' alt='missing' />
             </a>
         </figure>
     </div>
     <div>
         <figure>
-            <a href="/assets/turnoff/6_blackout.png">
-                <img class="l1" src='/assets/turnoff/6_blackout.png' alt='missing' />
+            <a href="/assets/turnoff/6_onekept.png">
+                <img class="l1" src='/assets/turnoff/6_onekept.png' alt='missing' />
             </a>
         </figure>
     </div>
     <div>
         <figure>
-            <a href="/assets/turnoff/7_blackout.png">
-                <img class="l2" src='/assets/turnoff/7_blackout.png' alt='missing' />
+            <a href="/assets/turnoff/7_onekept.png">
+                <img class="l2" src='/assets/turnoff/7_onekept.png' alt='missing' />
             </a>
         </figure>
     </div>
@@ -105,64 +105,99 @@ Non-linearities are `relu`. Weights are not tied.
 <section class="turnoffgrid">
     <div>
         <figure>
-            <a href="/assets/turnoff/8_blackout.png">
-                <img class="l3" src='/assets/turnoff/8_blackout.png' alt='missing' />
+            <a href="/assets/turnoff/8_onekept.png">
+                <img class="l3" src='/assets/turnoff/8_onekept.png' alt='missing' />
             </a>
         </figure>
     </div>
     <div>
         <figure>
-            <a href="/assets/turnoff/9_blackout.png">
-                <img class="l1" src='/assets/turnoff/9_blackout.png' alt='missing' />
+            <a href="/assets/turnoff/9_onekept.png">
+                <img class="l1" src='/assets/turnoff/9_onekept.png' alt='missing' />
             </a>
         </figure>
     </div>
  </section>
-<!--
-# Sample Activations (8)
 
-<section class="activationsection">
-    <div class="l1">
-        <figure>
-            <a href="/assets/1s8s/layer0_B.png">
-                <figcaption>Input</figcaption>
-                <img class="l1" src='/assets/1s8s/layer0_B.png' alt='missing' />
-            </a>
-        </figure>
-    </div>
-    <div class="l2">
-        <figure>
-            <a href="/assets/1s8s/layer1_B.png">
-                <figcaption>Layer 1</figcaption>
-                <img class="l2" src='/assets/1s8s/layer1_B.png' alt='missing' />
-            </a>
-        </figure>
-    </div>
-    <div class="l3">
-        <figure>
-            <a href="/assets/1s8s/layer2_B.png">
-                <figcaption>Layer 2</figcaption>
-                <img class="l3" src='/assets/1s8s/layer2_B.png' alt='missing' />
-            </a>
-        </figure>
-    </div>
-    <div class="l4">
-        <figure>
-            <a href="/assets/1s8s/layer3_B.png">
-                <figcaption>Layer 3</figcaption>
-                <img class="l4" src='/assets/1s8s/layer3_B.png' alt='missing' />
-            </a>
-        </figure>
-    </div>
-    <div class="l5">
-        <figure>
-            <a href="/assets/1s8s/layer4_B.png">
-                <figcaption>Output</figcaption>
-                <img class="l5" src='/assets/1s8s/layer4_B.png' alt='missing' />
-            </a>
-        </figure>
-    </div>
 
+
+# Reconstructions when 1/10 middle units set to 0
+
+<section class="turnoffgrid">
+    <div>
+        <figure>
+            <a href="/assets/turnoff/0_onegone.png">
+                <img class="l1" src='/assets/turnoff/0_onegone.png' alt='missing' />
+            </a>
+        </figure>
+    </div>
+    <div>
+        <figure>
+            <a href="/assets/turnoff/1_onegone.png">
+                <img class="l2" src='/assets/turnoff/1_onegone.png' alt='missing' />
+            </a>
+        </figure>
+    </div>
+    <div>
+        <figure>
+            <a href="/assets/turnoff/2_onegone.png">
+                <img class="l3" src='/assets/turnoff/2_onegone.png' alt='missing' />
+            </a>
+        </figure>
+    </div>
+    <div>
+        <figure>
+            <a href="/assets/turnoff/3_onegone.png">
+                <img class="l1" src='/assets/turnoff/3_onegone.png' alt='missing' />
+            </a>
+        </figure>
+    </div>
 </section>
 
--->
+<section class="turnoffgrid">
+    <div>
+        <figure>
+            <a href="/assets/turnoff/4_onegone.png">
+                <img class="l2" src='/assets/turnoff/4_onegone.png' alt='missing' />
+            </a>
+        </figure>
+    </div>
+    <div>
+        <figure>
+            <a href="/assets/turnoff/5_onegone.png">
+                <img class="l3" src='/assets/turnoff/5_onegone.png' alt='missing' />
+            </a>
+        </figure>
+    </div>
+    <div>
+        <figure>
+            <a href="/assets/turnoff/6_onegone.png">
+                <img class="l1" src='/assets/turnoff/6_onegone.png' alt='missing' />
+            </a>
+        </figure>
+    </div>
+    <div>
+        <figure>
+            <a href="/assets/turnoff/7_onegone.png">
+                <img class="l2" src='/assets/turnoff/7_onegone.png' alt='missing' />
+            </a>
+        </figure>
+    </div>
+</section>
+
+<section class="turnoffgrid">
+    <div>
+        <figure>
+            <a href="/assets/turnoff/8_onegone.png">
+                <img class="l3" src='/assets/turnoff/8_onegone.png' alt='missing' />
+            </a>
+        </figure>
+    </div>
+    <div>
+        <figure>
+            <a href="/assets/turnoff/9_onegone.png">
+                <img class="l1" src='/assets/turnoff/9_onegone.png' alt='missing' />
+            </a>
+        </figure>
+    </div>
+ </section>
