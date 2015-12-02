@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The effect of turning off units in the middle layer"
+title:  "The effect of turning off units in the middle layer (4 layers)"
 date:   2015-11-18
 categories: mnist autoencoder
 ---
