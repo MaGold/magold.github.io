@@ -17,7 +17,7 @@ We begin by training the network using 400 synthetic images (the training set), 
   </a>
 </figure>
 
-By visual inspection, the network parameters that performed best on the real images occurred at around epoch 225. A snapshot of the corresponding outputs is shown below, and compared a "naive" that simply converts the input image to greyscale.
+By visual inspection, the network parameters that performed best on the real images occurred at around epoch 225. A snapshot of the corresponding outputs is shown below, and compared with a "naive" algorithm that simply converts the input image to greyscale.
 <figure>
   <a href="/assets/transfer/225__testpreds.png">
     <img class="preds" src='/assets/transfer/225__testpreds.png' alt='missing' />
