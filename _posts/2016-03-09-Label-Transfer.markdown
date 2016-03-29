@@ -24,6 +24,11 @@ By visual inspection, the network parameters that performed best on the real ima
   </a>
 </figure>
 
+Youtube video:
+
+
+<a href="https://www.youtube.com/watch?v=GR54NsQM9i0" target="_blank"><img src="http://img.youtube.com/vi/GR54NsQM9i0/0.jpg"
+alt="training vid" width="480" height="360" border="10" /></a>
 
 ## Second phase:
 
@@ -42,5 +47,6 @@ In the second phase, we retrain the network with an augmented training set consi
     <img class="preds" src='/assets/transfer/phase2_500.png' alt='missing' />
   </a>
 </figure>
+
 
 
