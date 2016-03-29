@@ -41,7 +41,7 @@ Test set:
   </a>
 </figure>
 
-# Video results
+# Video result(click for youtube video)
 
 Sample output after 200 epochs:
 <a href="https://www.youtube.com/watch?v=L0S6rrEj0KE" target="_blank"><img src="http://img.youtube.com/vi/L0S6rrEj0KE/0.jpg"
