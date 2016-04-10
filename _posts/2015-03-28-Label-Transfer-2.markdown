@@ -51,3 +51,11 @@ alt="training vid" width="480" height="360" border="10" /></a>
 Sample output after 800 epochs:
 <a href="https://www.youtube.com/watch?v=SBgB6J9RRA8" target="_blank"><img src="http://img.youtube.com/vi/SBgB6J9RRA8/0.jpg"
 alt="training vid" width="480" height="360" border="10" /></a>
+
+Sand example:
+<a href="https://www.youtube.com/watch?v=4eVtPubrT6w" target="_blank"><img src="http://img.youtube.com/vi/4eVtPubrT6w/0.jpg"
+alt="training vid" width="480" height="360" border="10" /></a>
+
+Anchor example:
+<a href="https://www.youtube.com/watch?v=CvrjXbmXOVE" target="_blank"><img src="http://img.youtube.com/vi/CvrjXbmXOVE/0.jpg"
+alt="training vid" width="480" height="360" border="10" /></a>
