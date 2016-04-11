@@ -66,6 +66,11 @@ Anchor example:
 <a href="https://www.youtube.com/watch?v=CvrjXbmXOVE" target="_blank"><img src="http://img.youtube.com/vi/CvrjXbmXOVE/0.jpg"
 alt="training vid" width="480" height="360" border="10" /></a>
 
+From above example:
+
+<a href="https://www.youtube.com/watch?v=rB-VX22Faas" target="_blank"><img src="http://img.youtube.com/vi/rB-VX22Faas/0.jpg"
+alt="training vid" width="480" height="360" border="10" /></a>
+
 # Filters (first layer)
 
 <figure>
