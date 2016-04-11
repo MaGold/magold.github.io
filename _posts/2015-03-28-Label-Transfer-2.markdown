@@ -61,3 +61,11 @@ alt="training vid" width="480" height="360" border="10" /></a>
 Anchor example:
 <a href="https://www.youtube.com/watch?v=CvrjXbmXOVE" target="_blank"><img src="http://img.youtube.com/vi/CvrjXbmXOVE/0.jpg"
 alt="training vid" width="480" height="360" border="10" /></a>
+
+# Filters (first layer)
+
+<figure>
+  <a href="/assets/transfer2/filters.png">
+    <img class="preds" src='/assets/transfer2/filters.png' alt='missing' />
+  </a>
+</figure>
